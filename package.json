@@ -1,0 +1,32 @@
+{
+  "name": "throw_stackoverflow_exception",
+  "version": "0.0.1",
+  "description": "Will open a stack overflow page using the wAPI to help (when activated to do so)",
+  "main": "ExStack/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ThomasSmWatson/ThrowStackOverFlowException.git"
+  },
+  "keywords": [
+    "stack",
+    "overflow",
+    "stackoverflow",
+    "web",
+    "exceptions",
+    "bug",
+    "help",
+    "learning"
+  ],
+  "author": "Thomas Watson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThomasSmWatson/ThrowStackOverFlowException/issues"
+  },
+  "homepage": "https://github.com/ThomasSmWatson/ThrowStackOverFlowException#readme",
+  "dependencies": {
+    "should": "^8.2.2"
+  }
+}
