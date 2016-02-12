@@ -1,31 +1,31 @@
 {
-  "name": "throw_stackoverflow_exception",
+  "name": "jslogger",
   "version": "0.0.1",
-  "description": "Will open a stack overflow page using the wAPI to help (when activated to do so)",
-  "main": "ExStack/app.js",
+  "description": "A basic logger with confugurable states and state groups for the developer to choose",
+  "main": "Logger/Logger.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/ThomasSmWatson/ThrowStackOverFlowException.git"
+    "url": "git+ssh://git@github.com/ThomasSmWatson/JsLogger.git"
   },
   "keywords": [
-    "stack",
-    "overflow",
-    "stackoverflow",
-    "web",
-    "exceptions",
-    "bug",
+    "LOGGING",
+    "STATES",
+    "debugging",
+    "debugger",
+    "logger",
+    "log",
     "help",
     "learning"
   ],
   "author": "Thomas Watson",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ThomasSmWatson/ThrowStackOverFlowException/issues"
+    "url": "https://github.com/ThomasSmWatson/JSLogger/issues"
   },
-  "homepage": "https://github.com/ThomasSmWatson/ThrowStackOverFlowException#readme",
+  "homepage": "https://github.com/ThomasSmWatson/JSLogger#readme",
   "devDependencies": {
     "jasmine": "^2.4.1"
   }
