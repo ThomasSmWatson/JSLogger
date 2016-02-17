@@ -4,13 +4,24 @@ var _StateController;
 var shouldPersist; 
 
 function Logger(){
-	var StateController = require('./StateController.js');
-	_StateController = new StateController();
+	function baseConstructor(){
+		var StateController = require('./StateController.js');
+		_StateController = new StateController();
+	}
+	function constructorWithStateController(){
+		var StateController = require('./StateController.js');
+		_StateController = stateController;
+	}
+	switch(arguments.length){
+		case 0: 
+		baseConstructor();
+		break;
+		case 1:
+		constructorWithStateController(arguments[0]);
+		break;
+	}
 }
-function Logger(stateController){
-	var StateController = require('./StateController.js');
-	_StateController = stateController;
-}
+
 function act(val){
 	if(shouldPersist)
 		val();
