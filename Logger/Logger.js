@@ -8,8 +8,7 @@ function Logger(){
 		var StateController = require('./StateController.js');
 		_StateController = new StateController();
 	}
-	function constructorWithStateController(){
-		var StateController = require('./StateController.js');
+	function constructorWithStateController(stateController){
 		_StateController = stateController;
 	}
 	switch(arguments.length){
